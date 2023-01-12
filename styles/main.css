@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "SeymourOne-Regular";
+  src: local("SeymourOne-Regular"),
+  url("./SeymourOne-Regular.ttf") format("opentype");
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Moon+Dance&family=Sevillana&display=swap");
+
 * {
     box-sizing: border-box;
   }
@@ -21,16 +29,37 @@
   }
   
   b {
-    color: #7F56D9;
-    font-size: large;
+    color: #285430;
+    font-size: 34px;
+    text-align: left;
   }
   
   h4 {
     color: #101828;
     font-size: large;
+    font-weight: 400;
+    font-size: 30px;
+    margin: 0;
+    text-align: left;
   }
   
+  .font-1 {
+    font-family: "SeymourOne-Regular", cursive;
+  }
+
+  p {
+    margin: 0;
+    text-indent: 3ch;
+    line-height: 2;
+  }
   
+  p.pilcrow {
+     text-indent: 12px;
+     display: inline;
+  }
+  p.pilcrow + p.pilcrow::before {
+    content: " ¶ ";
+  }
   /* color 1 - #7F56D9 */
   /* color 2 - #F9F5FF */
   /* color 3 - #D0D5DD */
