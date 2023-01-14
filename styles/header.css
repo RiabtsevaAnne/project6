@@ -58,7 +58,6 @@
   }
 
   .collaborators {
-    margin-left: 30px;
     justify-content: space-between;
   }
   
@@ -70,10 +69,35 @@
     margin-left: 30px;
   }
 
-  header .highlighted-2 {
+  div .getfreetrial {
     background-color: #E5D9B6;
     color: #fff;
     padding: 8px 15px;
+    margin: 60px;
   }
 
+  div a {
+    color: #101828;
+    font-size: 16px;
+    line-height: 24px;
+  }
   
+  div .highlighted {
+    display: flex;
+    width: fit-content;
+    border: 3px solid rgba(127, 86, 217, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  div .highlighted a {
+    background-color: #285430;
+    color: #fff;
+    padding: 8px 15px;
+  }
+  
+  div a {
+    color: #101828;
+    font-size: 16px;
+    line-height: 24px;
+  }
