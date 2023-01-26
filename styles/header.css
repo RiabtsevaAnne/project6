@@ -71,9 +71,13 @@
 
   div .getfreetrial {
     background-color: #E5D9B6;
+    display: flex;
+    width: fit-content;
     color: #fff;
     padding: 8px 15px;
-    margin: 60px;
+    margin: 0 0 60px;
+    overflow: hidden;
+    border-radius: 8px;
   }
 
   div a {
@@ -82,12 +86,13 @@
     line-height: 24px;
   }
   
-  div .highlighted {
+  div .getstarted {
     display: flex;
     width: fit-content;
     border: 3px solid rgba(127, 86, 217, 0.2);
     border-radius: 8px;
     overflow: hidden;
+    margin: 0 0 60px;
   }
   
   div .highlighted a {
@@ -100,4 +105,24 @@
     color: #101828;
     font-size: 16px;
     line-height: 24px;
+  }
+
+  .banner-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  div .getstarted {
+    display: flex;
+    width: fit-content;
+    border: 3px solid rgba(127, 86, 217, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  div .getstarted a {
+    background-color: #285430;
+    color: #fff;
+    padding: 8px 15px;
   }
