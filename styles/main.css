@@ -68,6 +68,10 @@ h3 {
     content: " ¶ ";
   }
 
+  h5 {
+    color: gray;
+  }
+
   /* color 1 - #7F56D9 */
   /* color 2 - #F9F5FF */
   /* color 3 - #D0D5DD */
