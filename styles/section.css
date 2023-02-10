@@ -1,5 +1,6 @@
 section {
     padding: 70px 0 0 0;
+    position: relative;
 }
 
 section .section-info {
@@ -140,4 +141,13 @@ section .section-2 {
     text-align: left;
     max-width: 768px;
     margin: 0 auto;
+}
+
+.kartinka {
+    float: right;
+    position: absolute;
+    top: 60px;
+    left: 750px;
+    width: 495px;
+    height: 300px;
 }
