@@ -181,3 +181,111 @@ section .section-2 {
     top: 400px;
     width: 150px;
   }
+
+  .section .titorsec {
+    width: 768px;
+    font-family: 'Inter';
+    letter-spacing: -0.02em;
+    text-align: center;
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+  .tutors {
+    text-align: center;
+    font-weight: 600;
+    height: 24px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #6941c6;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  .meet {
+    text-align: center;
+    font-weight: 600;
+    height: 44px;
+    font-size: 36px;
+    line-height: 44px;
+    color: #101828;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  .tutorsec .text {
+    text-align: center;
+    height: 60px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #667085;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  .col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+    width: 276px;
+    height: 340px;
+    background: #F9FAFB;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 1;
+  }
+
+  .card-title {
+    width: 228px;
+    height: 28px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  .card-text {
+    width: 228px;
+    height: 48px;
+    font-family: 'Inter';
+    font-size: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #6941c6;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  .text-muted {
+    text-align: center;
+    width: 228px;
+    height: 72px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #667085;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
