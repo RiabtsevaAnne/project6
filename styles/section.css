@@ -37,7 +37,30 @@ section .articles {
   align-items: flex-start;
 }
 
+section .articles {
+  margin: 40 px 0 0 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
 section .articles .article-card {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  max-width: 450px;
+  border: 2px solid #e2e2e2;
+  background-color: #fff;
+  padding: 30px 40px;
+  flex-grow: 1;
+  border-radius: 12px;
+  box-shadow: 0px 67.1144px 109.061px rgba(0, 0, 0, 0.05);
+}
+
+section .articles .webdevelop {
   font-weight: 700;
   font-size: 24px;
   line-height: 36px;
@@ -72,7 +95,22 @@ section .articles .article-card .title {
   color: #101828;
 }
 
+section .articles .webdevelop .title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #101828;
+}
+
 .article-card .more {
+  color: #646464;
+  font-size: 16px;
+  padding: 20px 0;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.webdevelop .more {
   color: #646464;
   font-size: 16px;
   padding: 20px 0;
