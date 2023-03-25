@@ -305,3 +305,49 @@ section .intro {
   align-self: stretch;
   flex-grow: 0;
 }
+
+.simple-card {
+  border: none;
+  border-radius: 12px;
+  padding: 30px 40px;
+}
+
+.simple-card .title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  color: #101828;
+}
+
+.simple-card .webdevelop {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 29px;
+  color: #646464;
+  padding: 30px 0 22px;
+}
+
+.simple-card .learnmore {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 25px;
+  color: #7f56d9;
+}
+
+.carousel-indicators {
+  position: relative;
+  margin: 40px auto 0 auto;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: #d9d9d9;
+  border: none;
+  width: 12px;
+  height: 12px;
+  border-radius: 6px;
+}
+
+.carousel-indicators .active {
+  width: 48px;
+  background-color: #7f56d9;
+}
